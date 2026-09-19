@@ -1,3 +1,4 @@
+
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -10,7 +11,7 @@ import List from "./pages/List/List";
 import Order from "./pages/Orders/Order";
 
 const App = () => {
-  const url = "http://localhost:4000";
+  const url = "https://fooddel-backend-six.vercel.app";
 
   return (
     <div>
@@ -34,3 +35,4 @@ const App = () => {
 };
 
 export default App;
+
