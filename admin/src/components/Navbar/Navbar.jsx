@@ -27,15 +27,7 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Right side */}
-      <div className="nav-right">
-        <img
-          className="profile"
-          src={assets.profile_image}
-          alt="profile"
-        />
-
-      </div>
+      
     </div>
   );
 };
