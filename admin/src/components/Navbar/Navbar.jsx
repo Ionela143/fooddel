@@ -35,9 +35,6 @@ const Navbar = () => {
           alt="profile"
         />
 
-        <button className="logout-btn" onClick={handleLogout}>
-          Logout
-        </button>
       </div>
     </div>
   );

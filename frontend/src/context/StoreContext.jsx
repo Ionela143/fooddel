@@ -85,6 +85,7 @@ const StoreContextProvider = ({ children }) => {
       const response = await axios.get(`${url}/api/food/list`);
 
       if (response.data.success) {
+        console.log("FOOD DATA:", response.data.data);
         setFoodList(response.data.data);
       }
     } catch (error) {
@@ -112,10 +113,6 @@ const StoreContextProvider = ({ children }) => {
       console.log("Load Cart Error:", error);
     }
   };
-
-
-
-
 
   useEffect(() => {
     const loadData = async () => {
