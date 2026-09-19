@@ -75,7 +75,7 @@ const Order = ({ url }) => {
 
                 <div className="order-meta">
                   <p>Items: {order.items?.length || 0}</p>
-                  <p>₹{order.amount}</p>
+                  <p>${order.amount}</p>
                 </div>
 
                 <select
