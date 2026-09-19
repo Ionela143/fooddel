@@ -1,10 +1,11 @@
+
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
 
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = ({ children }) => {
-  const url = "http://localhost:4000";
+  const url = "https://fooddel-backend-six.vercel.app";
 
   const [food_list, setFoodList] = useState([]);
   const [cartItems, setCartItems] = useState({});
